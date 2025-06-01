@@ -1,7 +1,7 @@
 # Liste etudiants
 ## Qu'est-ce que c'est ?
 
-C'est une application Java avec JavaFX et Hibernate qui permet de lister, modifier et supprimer une base de données d'étudiants,, ainsi que de stocker leur score au jeu snake inclut dans le jeux.
+C'est une application Java avec JavaFX et Hibernate qui permet de lister, modifier et supprimer une base de données d'étudiants, ainsi que de stocker leur score au jeu snake inclut dans le jeux.
 
 ## Setup :
 
