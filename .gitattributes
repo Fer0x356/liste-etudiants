@@ -1,0 +1,4 @@
+runtime/lib/server/libjvm.so filter=lfs diff=lfs merge=lfs -text
+MonApp/lib/libjfxwebkit.so filter=lfs diff=lfs merge=lfs -text
+runtime/lib/modules filter=lfs diff=lfs merge=lfs -text
+MonApp/lib/runtime/lib/modules filter=lfs diff=lfs merge=lfs -text

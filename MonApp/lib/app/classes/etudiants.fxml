@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox xmlns="http://javafx.com/javafx/24" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.dimitri.monapp.controllers.EtudiantsController">
+    <Button text="⟵" onAction="#handleRetourMenu" style="-fx-font-size: 18;" />
+    <TableView fx:id="tableEtudiants">
+        <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+        </columnResizePolicy>
+        <columns>
+            <TableColumn text="ID" fx:id="colId" />
+            <TableColumn text="Nom" fx:id="colNom" />
+            <TableColumn text="Prénom" fx:id="colPrenom" />
+            <TableColumn text="Score Snake" fx:id="colScoreSnake" />
+        </columns>
+    </TableView>
+    <Button text="Ajouter un étudiant" onAction="#save"/>
+    <Button text="Supprimer" onAction="#delete"/>
+</VBox>

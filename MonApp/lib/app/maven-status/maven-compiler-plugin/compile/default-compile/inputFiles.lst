@@ -1,0 +1,9 @@
+/home/dimitri/IdeaProjects/liste-etudiants/src/main/java/com/dimitri/monapp/MainApp.java
+/home/dimitri/IdeaProjects/liste-etudiants/src/main/java/com/dimitri/monapp/controllers/AproposController.java
+/home/dimitri/IdeaProjects/liste-etudiants/src/main/java/com/dimitri/monapp/controllers/EtudiantsController.java
+/home/dimitri/IdeaProjects/liste-etudiants/src/main/java/com/dimitri/monapp/controllers/MenuController.java
+/home/dimitri/IdeaProjects/liste-etudiants/src/main/java/com/dimitri/monapp/controllers/SnakeController.java
+/home/dimitri/IdeaProjects/liste-etudiants/src/main/java/com/dimitri/monapp/dao/EtudiantDAO.java
+/home/dimitri/IdeaProjects/liste-etudiants/src/main/java/com/dimitri/monapp/hibernate/HibernateUtil.java
+/home/dimitri/IdeaProjects/liste-etudiants/src/main/java/com/dimitri/monapp/models/Etudiant.java
+/home/dimitri/IdeaProjects/liste-etudiants/src/main/java/com/dimitri/monapp/utils/SceneUtils.java

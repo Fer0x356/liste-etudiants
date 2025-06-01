@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="20" alignment="CENTER" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="com.dimitri.monapp.controllers.MenuController">
+    <Label text="Menu Principal" style="-fx-font-size: 18px;" />
+    <Button text="Liste des étudiants" onAction="#handleListeEtudiants" />
+    <Button text="Snake" onAction="#handleSnake" />
+    <Button text="À propos" onAction="#handleAPropos" />
+</VBox>

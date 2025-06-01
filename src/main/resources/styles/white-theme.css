@@ -1,0 +1,53 @@
+/* Thème clair (white-theme.css) */
+.root {
+    -fx-background-color: #f7f7f7;
+    -fx-text-fill: #222;
+}
+
+.label, .button, .text-field, .text {
+    -fx-text-fill: #222;
+    -fx-background-color: #fff;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-font-size: 15px;
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, #f9f9f9, #e0e0e0);
+    -fx-effect: dropshadow(gaussian, #eee, 2, 0, 0, 1);
+    -fx-cursor: hand;
+    -fx-padding: 8 18 8 18;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #e6e6e6;
+}
+
+.table-view {
+    -fx-background-color: #fff;
+    -fx-table-cell-border-color: #e0e0e0;
+    -fx-control-inner-background: #fff;
+    -fx-selection-bar: #e0e0e0;
+    -fx-selection-bar-non-focused: #f0f0f0;
+}
+
+.table-row-cell:filled:selected, .table-cell:filled:selected {
+    -fx-background-color: #e0e0e0;
+}
+
+.text-field {
+    -fx-background-color: #fff;
+    -fx-border-color: #bbb;
+    -fx-border-radius: 4px;
+    -fx-padding: 5 8 5 8;
+}
+
+.canvas {
+    -fx-background-color: #fff;
+    -fx-border-color: #ddd;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+}
+
