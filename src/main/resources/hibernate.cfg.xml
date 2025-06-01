@@ -7,8 +7,8 @@
         <!-- Connexion à la base -->
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/etudiants_db?serverTimezone=UTC</property>
-        <property name="hibernate.connection.username">dimitri</property>
-        <property name="hibernate.connection.password">caca1234</property>
+        <property name="hibernate.connection.username">CHANGE_ME</property>
+        <property name="hibernate.connection.password">CHANGE_ME</property>
 
         <!-- Dialecte MySQL -->
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
