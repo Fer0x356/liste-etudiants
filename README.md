@@ -15,7 +15,8 @@ Il faut une database "etudiants_db", et dedans une table avec ces attributs :
 | score_snake | int(11)      | YES  |     | 0       |                |
 
 
-Il faut les paquets JavaFX d'installés et de liés à IntelliJ dans ```File > Project Structure > Librairies```.
+Il faut les paquets JavaFX d'installés : https://gluonhq.com/products/javafx/ 
+et de liés à IntelliJ dans ```File > Project Structure > Librairies```.
 
 De préférence les options de run de la JVM : ```--module-path /home/dimitri/Travail/dev/javafx-sdk-24.0.1/lib --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics --add-opens=java.base/sun.misc=ALL-UNNAMED -Dprism.marlinlog=false```.
 
