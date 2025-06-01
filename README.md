@@ -7,14 +7,12 @@ C'est une application Java avec JavaFX et Hibernate qui permet de lister, modifi
 
 Il faut mysql d'installé, vous pourrez modifier dans ```src/main/resources/hibernate.cfg.xml``` le nom d'utilisateur et le mot de passe de la base de données à utiliser.
 Il faut une database "etudiants_db", et dedans une table avec ces attributs :
-+-------------+--------------+------+-----+---------+----------------+
 | Field       | Type         | Null | Key | Default | Extra          |
-+-------------+--------------+------+-----+---------+----------------+
+|-------------|--------------|------|-----|---------|----------------|
 | id          | bigint(20)   | NO   | PRI | NULL    | auto_increment |
 | nom         | varchar(100) | NO   |     | NULL    |                |
 | prenom      | varchar(100) | NO   |     | NULL    |                |
 | score_snake | int(11)      | YES  |     | 0       |                |
-+-------------+--------------+------+-----+---------+----------------+
 
 
 Il faut les paquets JavaFX d'installés et de liés à IntelliJ dans ```File > Project Structure > Librairies```.
