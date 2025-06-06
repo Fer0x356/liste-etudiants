@@ -18,10 +18,10 @@ Il faut une database "etudiants_db", et dedans une table avec ces attributs :
 Il faut les paquets JavaFX d'installés : https://gluonhq.com/products/javafx/ 
 et de liés à IntelliJ dans ```File > Project Structure > Librairies```.
 
-De préférence les options de run de la JVM : ```--module-path /home/dimitri/Travail/dev/javafx-sdk-24.0.1/lib --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics --add-opens=java.base/sun.misc=ALL-UNNAMED -Dprism.marlinlog=false```.
+De préférence les options de run de la JVM : ```--module-path path/to/javafx-sdk-24.0.1/lib --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics --add-opens=java.base/sun.misc=ALL-UNNAMED -Dprism.marlinlog=false```.
 
 Il faut aussi ```git lfs``` d'installé.
 
 ### Disclaimer :
 
-C'est un repo de test, je le met en public car ça m'amuse de le mettre en public (et pour pouvoir le partager à n'importe qui sans que ce soit embêtant). Donc l'application est totalement inutile, n'y portez pas attention si vous cherchez un outil pratique :).
+C'est un repo de test et d'entraînement, je le met en public car ça m'amuse de le mettre en public (et pour pouvoir le partager à n'importe qui sans que ce soit embêtant). Donc l'application est totalement inutile, n'y portez pas attention si vous cherchez un outil pratique :).
